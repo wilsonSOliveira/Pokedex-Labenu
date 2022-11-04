@@ -3,7 +3,7 @@ Projeto Pokedex
 
 
 # `Descrição`
-O Projeto Projeto Pokedex foi desenvolvido como uma atividade dentro do curso Full-Stack Web Developer da Labenu, o qual consiste na elaboração de um Front-end para consumir a API da pokeAPI.
+O Projeto Pokedex foi desenvolvido como uma atividade dentro do curso Full-Stack Web Developer da Labenu, o qual consiste na elaboração de um Front-end para consumir a API da pokeAPI.
 
 - ## Home
 
