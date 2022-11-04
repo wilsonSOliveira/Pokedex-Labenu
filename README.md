@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# `Projeto`
+Projeto Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# `Descrição`
+O Projeto Projeto Pokedex foi desenvolvido como uma atividade dentro do curso Full-Stack Web Developer da Labenu, o qual consiste na elaboração de um Front-end para consumir a API da pokeAPI.
 
-In the project directory, you can run:
+- ## Home
 
-### `npm start`
+- Apresenta 20 pokemons em cards personalizados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Botão "capturar!" adiciona o pokemon escolhido a sua pokedex. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Uma mensagem confirmara a seleção do pokemon.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pokedex
 
-### `npm run build`
+- Apresenta os pokemon selecionados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- É possivel remover um pokemon da pokedex.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- É possivel selecionar dois pokemons para  comparar seus atributos e ver qual seria o provável vencedor de uma batalha.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Duelo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Apresenta um cart com os pokemon selecionados para o duelo.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Apresenta seus atributos basicos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Apresenta a soma desses atributos e determina qual delas é maior.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# `Instalando e rodando o projeto via clone`
+Fazer o clone do projeto:
+- git clone link-do-repositório
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Instalar as dependências:
+- npm install
 
-### Code Splitting
+Rodar o projeto:
+- npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# `Tecnologias utilizadas`
+<div>
+<img src='https://cdn-icons-png.flaticon.com/512/5968/5968292.png' height='40'> 
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' height='40'> <img src='https://cdn-icons-png.flaticon.com/512/1051/1051277.png' height='40'> 
+<img src='https://cdn-icons-png.flaticon.com/512/732/732190.png' height='40'> 
+<img src='https://avatars.githubusercontent.com/u/20658825?s=200&v=4' height='40'> 
+<img src='https://res.cloudinary.com/practicaldev/image/fetch/s--bvQtwOo5--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://reacttraining.com/images/blog/reach-react-router-future.png' height='40' width='40'> 
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Axios_%28computer_library%29_logo.svg/1280px-Axios_%28computer_library%29_logo.svg.png' height='40' width='80'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+___
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Como foi feito?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Escrevemos em JavaScript utilizando React ( Hooks incluso ).
+2. Consumimos a API POKEAPI utilizando Axios.
+3. Traçamos sistemas de rotas utilizando React Router Dom.
+4. Estilizamos com Styled-components.
+5. Deploy através do Surge.
 
-### Deployment
+- O link do surge pode ser acessado clicando [aqui](https://bawdy-earthquake.surge.sh/pokedex).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
+
+
+
+# `Autores`
+
+Wilson Santos De Oliveira </br>
+<a href="https://www.linkedin.com/in/wilson-santos-de-oliveira-5b1919116/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/wilsonsantos1992"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+
+Andre Eletherio </br>
+<a href="https://github.com/AndreEletherio"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+
+Lakshmi Monteiro </br>
+<a href="https://github.com/Lakshmi-Monteiro-Bittencourt"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
