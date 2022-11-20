@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const CardStyle = styled.section`
-    width: 440px;
+    width: 380px;
     height: 210px;
     left: 0px;
     top: 0px;
@@ -118,7 +118,7 @@ export const Back = styled.img`
 `;
 
 export const Pokemon = styled.img`
-  width: 193px;
+  width: 180px;
   position: absolute;
   right: 3px;
   bottom: 73px;

@@ -65,7 +65,7 @@ ___
 4. Estilizamos com Styled-components.
 5. Deploy através do Surge.
 
-- O link do surge pode ser acessado clicando [aqui](https://bawdy-earthquake.surge.sh/pokedex).
+- O link do surge pode ser acessado clicando [aqui](http://pokedexwilloliveira2022.surge.sh/).
 
 
 

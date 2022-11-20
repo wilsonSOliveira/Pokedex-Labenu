@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Screen = styled.section`
     width: 100%;
     min-height: 100vh;
-    background-color:#5E5E5E;
+    background-color:#494949;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -47,6 +47,7 @@ export const Body = styled.section`
     flex-wrap: wrap;
     width: 1360px;
     margin: 0 auto;
+    padding: 6px;
 `;
 
 export const Main = styled.section`

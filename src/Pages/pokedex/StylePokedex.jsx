@@ -1,12 +1,20 @@
 import styled from "styled-components";
 
 export const Screen = styled.section`
-    width: fit-content;
-    max-width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
     background-color:#5E5E5E;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    span{
+        position: fixed;
+        left: 25vw;
+        top: 50vh;
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+    }
     @media screen and (min-device-width : 320px) and (max-device-width : 480px){
         height: 100%;
     }

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import backpokes from "../../img/back-pokes.jpg"
 
 export const Tela = styled.section`
 width: 100%;
@@ -8,21 +9,32 @@ background-color: #00000082;
 top: 0;
 `
 export const Card = styled.section`
-height: 350px;
+height: 80vh;
 width: 600px;
 display: grid;
 grid-template-rows: 5fr 1fr;
 border-radius: 12px;
-position: absolute;
+position: fixed;
 background-color: #fff;
-top: calc(50vh - 111px);
+top: calc(50% - 200px);
 left: calc(50% - 225.5px);
 justify-content: center;
 z-index: 999999;
 justify-items: center;
+h2{
+  margin-top: 10px;
+}
 `
 export const FrontPokemon=styled.img`
-    width: 100px;
+    width: 150px;
+    background: #00000034;
+    border-radius: 6px;
+    background-image:url(${backpokes});
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 10px;
+    
+    
 `
 export const NomePokemonDuelo = styled.div`
   font-family: 'Poppins';

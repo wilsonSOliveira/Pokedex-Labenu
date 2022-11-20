@@ -13,7 +13,7 @@ export function Home() {
     const [showGot, setShowGot] = useState(false)
 
     useEffect(() => {
-        for (let i = 1; i < 28; i++) {
+        for (let i = 1; i < 40; i++) {
             axios.get(
                 BASE_URL + "/pokemon/" + i
                 ).then((res) => setPokemonList(pokemonList => [...pokemonList, res.data])).catch((err) => console.log(err))

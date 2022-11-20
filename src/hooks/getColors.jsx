@@ -67,6 +67,10 @@ export const getType = (type) => {
             symbol = dragon
             cardColor = "#0A6CBF"
             break
+            case "fairy":
+                color ="#7e7e7e"
+                cardColor="#8b8b8b"
+
     }
 
     return { color, symbol, cardColor };

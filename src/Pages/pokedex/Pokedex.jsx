@@ -58,7 +58,7 @@ export function Pokedex() {
                 <AllPokemons onClick={() => goToHome(navigate)}>Todos Pokémons</AllPokemons>
                 <Img src={opa} alt="" />
             </Header>
-            {loading ? "...Loading" :<Body >
+            {loading ? <span>Ainda não há pokemons na sua pokedex!</span> :<Body >
                 <Title>Meus Pokémons</Title>
                 <Main>
                     {pokeList}
